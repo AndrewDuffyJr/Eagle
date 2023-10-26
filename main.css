@@ -1,0 +1,26 @@
+.box-link {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.card-panel {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.card-panel:hover {
+    transform: scale(1.05); /* Scale the box up by 5% on hover */
+    background-color: #f0f0f0; /* Change the background color on hover */
+}
+
+@media (max-width: 600px) {
+    .card-panel {
+        height: 150px;
+    }
+}
+  
