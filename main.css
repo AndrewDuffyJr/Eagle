@@ -1,3 +1,9 @@
+root {
+--dark-moss-green: #4E6804ff;
+--mindaro: #C3F179ff;
+--sage: #BFC19Cff;
+}
+
 .box-link {
     display: block;
     color: inherit;
@@ -24,3 +30,6 @@
     }
 }
   
+nav {
+    background-color: var(--dark-moss-green);
+}
