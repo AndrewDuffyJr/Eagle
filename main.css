@@ -31,5 +31,9 @@ root {
 }
   
 nav {
-    background-color: var(--dark-moss-green);
+    color: var(--dark-moss-green);
+}
+
+body {
+    background-color: var(--sage);
 }
