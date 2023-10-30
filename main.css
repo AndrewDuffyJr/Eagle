@@ -37,3 +37,7 @@ nav {
 body {
     background-color: var(--sage);
 }
+
+big-text {
+    color: var(--mindaro);
+}
